@@ -14,7 +14,7 @@
   <h3 align="center">Modern UI/UX website</h3>
 
    <div align="center">
-     Build this project step by step with detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube.
+     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube.
     </div>
 </div>
 
@@ -26,12 +26,13 @@
 4. 🤸 [Quick Start](#quick-start)
 5. 🕸️ [Snippets](#snippets)
 6. 🔗 [Links](#links)
+7. 🚀 [More](#more)
 
 ## 🚨 Tutorial
 
-This repository contains the code corresponding to an in-depth tutorial available on the YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
 
-If you prefer visual learning, this is the perfect resource for you. Follow the tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
 
 <a href="https://youtu.be/B91wc5dCEBA" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
@@ -80,7 +81,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/jaluiovilash/brainwave.git
+git clone https://github.com/JavaScript-Mastery-Pro/brainwave.git
 cd brainwave
 ```
 
@@ -98,7 +99,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:10000](http://localhost:10000) in your browser to view the project.
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
 
 ## <a name="snippets">🕸️ Snippets</a>
 
@@ -146,7 +147,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    "./public/assets/**/*.{js,ts,jsx,tsx}",
+    "./public/assets/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     extend: {
@@ -157,10 +158,10 @@ export default {
           3: "#FF776F",
           4: "#7ADB78",
           5: "#858DFF",
-          6: "#FF98E2",
+          6: "#FF98E2"
         },
         stroke: {
-          1: "#26242C",
+          1: "#26242C"
         },
         n: {
           1: "#FFFFFF",
@@ -175,40 +176,40 @@ export default {
           10: "#43435C",
           11: "#1B1B2E",
           12: "#2E2A41",
-          13: "#6C7275",
-        },
+          13: "#6C7275"
+        }
       },
       fontFamily: {
         sans: ["var(--font-sora)", ...fontFamily.sans],
         code: "var(--font-code)",
-        grotesk: "var(--font-grotesk)",
+        grotesk: "var(--font-grotesk)"
       },
       letterSpacing: {
-        tagline: ".15em",
+        tagline: ".15em"
       },
       spacing: {
         0.25: "0.0625rem",
         7.5: "1.875rem",
-        15: "3.75rem",
+        15: "3.75rem"
       },
       opacity: {
-        15: ".15",
+        15: ".15"
       },
       transitionDuration: {
-        DEFAULT: "200ms",
+        DEFAULT: "200ms"
       },
       transitionTimingFunction: {
-        DEFAULT: "linear",
+        DEFAULT: "linear"
       },
       zIndex: {
         1: "1",
         2: "2",
         3: "3",
         4: "4",
-        5: "5",
+        5: "5"
       },
       borderWidth: {
-        DEFAULT: "0.0625rem",
+        DEFAULT: "0.0625rem"
       },
       backgroundImage: {
         "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
@@ -219,9 +220,9 @@ export default {
         "benefit-card-3": "url(assets/benefits/card-3.svg)",
         "benefit-card-4": "url(assets/benefits/card-4.svg)",
         "benefit-card-5": "url(assets/benefits/card-5.svg)",
-        "benefit-card-6": "url(assets/benefits/card-6.svg)",
-      },
-    },
+        "benefit-card-6": "url(assets/benefits/card-6.svg)"
+      }
+    }
   },
   plugins: [
     plugin(function ({ addBase, addComponents, addUtilities }) {
@@ -229,56 +230,56 @@ export default {
       addComponents({
         ".container": {
           "@apply max-w-[77.5rem] mx-auto px-5 md:px-10 lg:px-15 xl:max-w-[87.5rem]":
-            {},
+            {}
         },
         ".h1": {
           "@apply font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]":
-            {},
+            {}
         },
         ".h2": {
           "@apply text-[1.75rem] leading-[2.5rem] md:text-[2rem] md:leading-[2.5rem] lg:text-[2.5rem] lg:leading-[3.5rem] xl:text-[3rem] xl:leading-tight":
-            {},
+            {}
         },
         ".h3": {
-          "@apply text-[2rem] leading-normal md:text-[2.5rem]": {},
+          "@apply text-[2rem] leading-normal md:text-[2.5rem]": {}
         },
         ".h4": {
-          "@apply text-[2rem] leading-normal": {},
+          "@apply text-[2rem] leading-normal": {}
         },
         ".h5": {
-          "@apply text-2xl leading-normal": {},
+          "@apply text-2xl leading-normal": {}
         },
         ".h6": {
-          "@apply font-semibold text-lg leading-8": {},
+          "@apply font-semibold text-lg leading-8": {}
         },
         ".body-1": {
           "@apply text-[0.875rem] leading-[1.5rem] md:text-[1rem] md:leading-[1.75rem] lg:text-[1.25rem] lg:leading-8":
-            {},
+            {}
         },
         ".body-2": {
-          "@apply font-light text-[0.875rem] leading-6 md:text-base": {},
+          "@apply font-light text-[0.875rem] leading-6 md:text-base": {}
         },
         ".caption": {
-          "@apply text-sm": {},
+          "@apply text-sm": {}
         },
         ".tagline": {
           "@apply font-grotesk font-light text-xs tracking-tagline uppercase":
-            {},
+            {}
         },
         ".quote": {
-          "@apply font-code text-lg leading-normal": {},
+          "@apply font-code text-lg leading-normal": {}
         },
         ".button": {
-          "@apply font-code text-xs font-bold uppercase tracking-wider": {},
-        },
+          "@apply font-code text-xs font-bold uppercase tracking-wider": {}
+        }
       });
       addUtilities({
         ".tap-highlight-color": {
-          "-webkit-tap-highlight-color": "rgba(0, 0, 0, 0)",
-        },
+          "-webkit-tap-highlight-color": "rgba(0, 0, 0, 0)"
+        }
       });
-    }),
-  ],
+    })
+  ]
 };
 ```
 
@@ -418,42 +419,42 @@ import {
   sliders04,
   telegram,
   twitter,
-  yourlogo,
+  yourlogo
 } from "../../public/assets";
 
 export const navigation = [
   {
     id: "0",
     title: "Features",
-    url: "#features",
+    url: "#features"
   },
   {
     id: "1",
     title: "Pricing",
-    url: "#pricing",
+    url: "#pricing"
   },
   {
     id: "2",
     title: "How to use",
-    url: "#how-to-use",
+    url: "#how-to-use"
   },
   {
     id: "3",
     title: "Roadmap",
-    url: "#roadmap",
+    url: "#roadmap"
   },
   {
     id: "4",
     title: "New account",
     url: "#signup",
-    onlyMobile: true,
+    onlyMobile: true
   },
   {
     id: "5",
     title: "Sign in",
     url: "#login",
-    onlyMobile: true,
-  },
+    onlyMobile: true
+  }
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -465,7 +466,7 @@ export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 export const brainwaveServices = [
   "Photo generating",
   "Photo enhance",
-  "Seamless Integration",
+  "Seamless Integration"
 ];
 
 export const brainwaveServicesIcons = [
@@ -473,7 +474,7 @@ export const brainwaveServicesIcons = [
   recording01,
   disc02,
   chromecast,
-  sliders04,
+  sliders04
 ];
 
 export const roadmap = [
@@ -484,7 +485,7 @@ export const roadmap = [
     date: "May 2023",
     status: "done",
     imageUrl: roadmap1,
-    colorful: true,
+    colorful: true
   },
   {
     id: "1",
@@ -492,7 +493,7 @@ export const roadmap = [
     text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
     date: "May 2023",
     status: "progress",
-    imageUrl: roadmap2,
+    imageUrl: roadmap2
   },
   {
     id: "2",
@@ -500,7 +501,7 @@ export const roadmap = [
     text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
     date: "May 2023",
     status: "done",
-    imageUrl: roadmap3,
+    imageUrl: roadmap3
   },
   {
     id: "3",
@@ -508,8 +509,8 @@ export const roadmap = [
     text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
     date: "May 2023",
     status: "progress",
-    imageUrl: roadmap4,
-  },
+    imageUrl: roadmap4
+  }
 ];
 
 export const collabText =
@@ -519,16 +520,16 @@ export const collabContent = [
   {
     id: "0",
     title: "Seamless Integration",
-    text: collabText,
+    text: collabText
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Smart Automation"
   },
   {
     id: "2",
-    title: "Top-notch Security",
-  },
+    title: "Top-notch Security"
+  }
 ];
 
 export const collabApps = [
@@ -537,57 +538,57 @@ export const collabApps = [
     title: "Figma",
     icon: figma,
     width: 26,
-    height: 36,
+    height: 36
   },
   {
     id: "1",
     title: "Notion",
     icon: notion,
     width: 34,
-    height: 36,
+    height: 36
   },
   {
     id: "2",
     title: "Discord",
     icon: discord,
     width: 36,
-    height: 28,
+    height: 28
   },
   {
     id: "3",
     title: "Slack",
     icon: slack,
     width: 34,
-    height: 35,
+    height: 35
   },
   {
     id: "4",
     title: "Photoshop",
     icon: photoshop,
     width: 34,
-    height: 34,
+    height: 34
   },
   {
     id: "5",
     title: "Protopie",
     icon: protopie,
     width: 34,
-    height: 34,
+    height: 34
   },
   {
     id: "6",
     title: "Framer",
     icon: framer,
     width: 26,
-    height: 34,
+    height: 34
   },
   {
     id: "7",
     title: "Raindrop",
     icon: raindrop,
     width: 38,
-    height: 32,
-  },
+    height: 32
+  }
 ];
 
 export const pricing = [
@@ -599,8 +600,8 @@ export const pricing = [
     features: [
       "An AI chatbot that can understand your queries",
       "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
+      "Ability to explore the app and its features without any cost"
+    ]
   },
   {
     id: "1",
@@ -610,8 +611,8 @@ export const pricing = [
     features: [
       "An advanced AI chatbot that can understand complex queries",
       "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
+      "Priority support to solve issues quickly"
+    ]
   },
   {
     id: "2",
@@ -621,9 +622,9 @@ export const pricing = [
     features: [
       "An AI chatbot that can understand your queries",
       "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
+      "Ability to explore the app and its features without any cost"
+    ]
+  }
 ];
 
 export const benefits = [
@@ -633,7 +634,7 @@ export const benefits = [
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     backgroundUrl: "assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: benefitImage2
   },
   {
     id: "1",
@@ -642,7 +643,7 @@ export const benefits = [
     backgroundUrl: "assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
-    light: true,
+    light: true
   },
   {
     id: "2",
@@ -650,7 +651,7 @@ export const benefits = [
     text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
     backgroundUrl: "assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: benefitImage2
   },
   {
     id: "3",
@@ -659,7 +660,7 @@ export const benefits = [
     backgroundUrl: "assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
-    light: true,
+    light: true
   },
   {
     id: "4",
@@ -667,7 +668,7 @@ export const benefits = [
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     backgroundUrl: "assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: benefitImage2
   },
   {
     id: "5",
@@ -675,8 +676,8 @@ export const benefits = [
     text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
     backgroundUrl: "assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-  },
+    imageUrl: benefitImage2
+  }
 ];
 
 export const socials = [
@@ -684,32 +685,32 @@ export const socials = [
     id: "0",
     title: "Discord",
     iconUrl: discordBlack,
-    url: "#",
+    url: "#"
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "#"
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "#"
   },
   {
     id: "3",
     title: "Telegram",
     iconUrl: telegram,
-    url: "#",
+    url: "#"
   },
   {
     id: "4",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#",
-  },
+    url: "#"
+  }
 ];
 ```
 
@@ -727,7 +728,7 @@ const Section = ({
   crosses,
   crossesOffset,
   customPaddings,
-  children,
+  children
 }) => (
   <div
     id={id}
@@ -851,4 +852,27 @@ export default Roadmap;
 - [Assets](https://drive.google.com/file/d/1JKzwPl_hnpjIlNbwfjMagb4HosxnyXbf/view?usp=sharing)
 - [Design](https://drive.google.com/file/d/15WJMOchujvaQ7Kg9e0nGeGR7G7JOeX1K/view?usp=sharing)
 - [Absolute Relative Positioning](https://css-tricks.com/absolute-positioning-inside-relative-positioning/)
-- [Live Website](https://brainwave-ai-chat.web.app/)
+- [Live Website](https://jsm-brainwave.com/)
+
+## <a name="more">🚀 More</a>
+
+**Advance your skills with Next.js 14 Pro Course**
+
+Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+
+<a href="https://jsmastery.pro/next14" target="_blank">
+<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/557837ce-f612-4530-ab24-189e75133c71" alt="Project Banner">
+</a>
+
+<br />
+<br />
+
+**Accelerate your professional journey with the Expert Training program**
+
+And if you're hungry for more than just a course and want to understand how we learn and tackle tech challenges, hop into our personalized masterclass. We cover best practices, different web skills, and offer mentorship to boost your confidence. Let's learn and grow together!
+
+<a href="https://www.jsmastery.pro/masterclass" target="_blank">
+<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/fed352ad-f27b-400d-9b8f-c7fe628acb84" alt="Project Banner">
+</a>
+
+#
