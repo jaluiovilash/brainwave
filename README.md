@@ -12,6 +12,7 @@
   </div>
 
   <h3 align="center">Modern UI/UX website</h3>
+  <a href="https://brainwave-in.web.app/" target="_blank" style="color: blue; text-decoration: underline; font-weight: bold;">Visit Website/Project</a>
 
    <div align="center">
      Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube.
@@ -99,7 +100,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+Open [http://localhost:10000](http://localhost:10000) in your browser to view the project.
 
 ## <a name="snippets">🕸️ Snippets</a>
 
